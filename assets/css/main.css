@@ -368,25 +368,17 @@ h6 {
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
-.footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
-  font-size: 14px;
-  padding: 40px 0;
-  position: relative;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  text-align: right;
+  padding: 20px 0;
 }
 
-.footer .copyright p {
-  margin-bottom: 0;
+.site-footer p {
+  margin: 0;
+  font-size: 0.9em;
 }
-
-.footer .credits {
-  margin-top: 4px;
-  font-size: 13px;
-  text-align: center;
-}
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -511,6 +503,7 @@ section,
   padding: 60px 0;
   overflow: clip;
 }
+
 
 /*--------------------------------------------------------------
 # Global Section Titles
